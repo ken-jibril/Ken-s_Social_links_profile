@@ -3,18 +3,29 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;           
+    margin: 0;
 }
 main {
     display: flex;
     justify-content: center;
 }
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
 .profile {
     background-image: url('https://images.unsplash.com/photo-1696643830146-44a8755f1905?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 100px;
+    margin-left: 100px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -50,6 +61,7 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     text-align: center;
+    font-weight: bold;
 }
 .bio {
     color: white;
@@ -65,7 +77,7 @@ main {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.1);
     width: 300px;
-    height: 300px;
+    height: 360px;
     border-radius: 10px;
 }
 .links a {
@@ -80,9 +92,10 @@ main {
     padding: 15px 25px;
 }
 .links a:hover {
-    background-color: black;
+    background-color: rgb(216, 231, 5);
     text-decoration: underline;
-    border-bottom: 2px solid;
+    border-bottom: 3px solid white;
     transition: all .3s linear;
     border-radius: 8px;
+    color: #1F1F1F;
 }
