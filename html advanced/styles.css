@@ -42,6 +42,7 @@ main {
     font-size: 17px;
     margin-top: 50px;
     padding: 10px;
+    font-weight: bold;
 }
 .avatar {
     border-radius: 50%;
