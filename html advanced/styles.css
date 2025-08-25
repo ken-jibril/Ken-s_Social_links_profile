@@ -5,16 +5,27 @@ body {
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;           
+    margin: 0;
 }
 main {
     display: flex;
     justify-content: center;
 }
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
 .profile {
     background-image: url('https://images.unsplash.com/photo-1696643830146-44a8755f1905?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 100px;
+    margin-left: 100px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -31,6 +42,7 @@ main {
     font-size: 17px;
     margin-top: 20px;
     padding: 10px;
+    font-weight: bold;
 }
 .avatar {
     border-radius: 40%;
@@ -67,7 +79,11 @@ main {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.1);
     width: 300px;
+<<<<<<< HEAD
     height: 350px;
+=======
+    height: 360px;
+>>>>>>> dd9997cc6b7e070cab806482c755ddeae0ba49ce
     border-radius: 10px;
 }
 .links a {
@@ -84,8 +100,16 @@ main {
 }
 .links a:hover {
     background-color: rgb(216, 231, 5);
+<<<<<<< HEAD
     border-bottom: 3px solid white;
     transition: all .3s linear;
     border-radius: 8px;
     color: black;
+=======
+    text-decoration: underline;
+    border-bottom: 3px solid white;
+    transition: all .3s linear;
+    border-radius: 8px;
+    color: #1F1F1F;
+>>>>>>> dd9997cc6b7e070cab806482c755ddeae0ba49ce
 }
